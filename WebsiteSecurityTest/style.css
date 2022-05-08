@@ -1,0 +1,366 @@
+/*header css */
+body {
+    background-image: url("photos/De_Rijke_Logistics_-_Transportation_by_sea.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    height: 200px;
+
+    clear: both;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: 0.8;
+
+
+}
+tittle{
+    font-size: 200px;
+    width: 60%;
+    height: 180px;
+
+}
+ul {
+    list-style-type: none;
+
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.8;
+}
+li {
+    border: solid white;
+    height: 75px;
+    width: 250px;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: yellow;
+    font-size: larger;
+}
+a:active{
+    background-color: yellow;
+}
+/*header css */
+
+/*homepage*/
+.homepagebox1 {
+    display: flex;
+    width: 65%;
+    height: 32%;
+    margin-left: 17%;
+    margin-bottom: 1%;
+    justify-content: space-evenly;
+
+}
+.homecalculator {
+    display: flex;
+    max-width: 49%;
+    height: 99%;
+    background-color: white;
+    opacity: 0.8;
+}
+.homedatabase {
+    display: flex;
+    max-width: 49%;
+    height: 99%;
+    background-color: white;
+    opacity: 0.8;
+}
+.homepagebox2 {
+
+    display: flex;
+    width: 65%;
+    height: 32%;
+    margin-left: 17%;
+    margin-bottom: 1%;
+    justify-content: space-evenly;
+
+}
+.hometekstblock {
+
+    display: flex;
+    width: 49%;
+    height: 99%;
+    background-color: white;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: medium;
+
+}
+.homepagefoto {
+
+    display: flex;
+    max-width: 49%;
+    height: 99%;
+    background-color: white;
+    opacity: 0.8;
+
+}
+.homedatabase-foto {
+    max-width: 98%;
+    height: 98%;
+    margin: 1%;
+}
+.homecalculator-foto {
+    max-width: 98%;
+    height: 98%;
+    margin: 1%;
+
+}
+.homegeschiedenis-foto {
+    max-width: 98%;
+    height: 98%;
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+/*homepage*/
+
+
+/*Database */
+
+form.schipsNamen{
+    line-height: 5;
+    border: none;
+    width: fit-content;
+    display: inline-grid;
+
+}
+.schippen{
+    font-size: large;
+    background: none;
+    border: none;
+    color:black ;
+}
+.schippen:hover{
+    color: yellow;
+    font-size: larger;
+}
+img{
+    width: fit-content;
+}
+.schipGegevens{
+    width: fit-content;
+    float: right;
+    background-color: white;
+    opacity: 0.8;
+
+}
+iframe{
+    height: 450;
+    margin-left: 95;
+    margin-bottom: 15;
+    width:1200;
+
+}
+/*Database */
+
+
+/* DatabaseSchip */
+.schip-flexbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.schipWeergave{
+    font-size: x-large;
+}
+.schipsNamen {
+    background-color: white;
+    opacity: 0.6;
+    
+    
+}
+
+/* DatabaseSchip */
+
+
+/*Calculator*/
+.login{
+  background-color: white;
+  opacity: 0.6;
+  margin-bottom: 15;
+  padding: 30;
+  width: fit-content;
+}
+.calculatorbox {
+
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin-left: 21%;
+    margin-bottom: 2%;
+}
+table{
+    margin-left: 40;
+    font-size: small;
+    text-align: Start;
+}
+
+.calculatorbox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+.calculatoritem {
+
+    width: 50%;
+    height: 100%;
+    margin: 5;
+    text-align: center;
+    background-color: white;
+    opacity: 0.6;
+
+}
+.calculatorpopup {
+
+    width: 55%;
+    height: 49%;
+    display: flex;
+    background-color: white;
+    opacity: 0.0;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    font-size: large;
+
+}
+ .calculatorfoto {
+
+    width: 55%;
+    height: 49%;
+    display: flex;
+    opacity: 0.0;
+}
+
+/*Calculator*/
+
+
+/*Geschiedenis*/
+figure{
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+.geschiedenisTxt {
+    line-height: 2;
+    opacity: 0.6;
+    font-size: 20px;
+    padding: 50px;
+    background-color: white;
+    margin: 10;
+}
+
+.geschiedenisFlex {
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    align-content: center;
+    margin-bottom: 2%;
+
+}
+.geschiedenis-foto {
+    margin: 10;
+}
+
+/*Geschiedenis*/
+
+
+/* Contact */
+.contactbox {
+
+    display: flex;
+    width: 100%;
+    margin-bottom: 1%;
+    text-align: center;
+    flex-direction: row;
+}
+.contactform {
+    background-color: white;
+    opacity: 0.6;
+    width: 50%;
+}
+.contactpopup {
+    display: flex;
+    background-color: white;
+    opacity: 0.0;
+    width: 50%;
+    margin-left:1%;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    font-size: x-large;
+}
+
+input {
+    margin: 15px;
+}
+select{
+    margin: 15px;
+    width: 377px;
+}
+textarea{
+    margin: 15px;
+    width: 377px;
+    height: 200px;
+}
+/* Contact */
+
+
+/*footer css */
+.footerbox {
+    border-style: solid; border-color: white;
+    background-color: white;
+    opacity: 0.8;
+
+    height: 175px;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+
+}
+.footerlinks {
+    border-style: solid; border-color: white;
+    width: 250px;
+    position: relative;
+    font-size: x-large;
+    color: white;
+
+    border-radius: 3px;
+
+}
+.footercontact{
+    border-style: solid; border-color: white;
+    font-size: x-large;
+    width: 250px;
+    position: relative;
+    color: white;
+
+    border-radius: 3px;
+
+
+}
+/*footer css */
